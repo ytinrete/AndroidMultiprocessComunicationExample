@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="broadcast"/>
+
+            <Button
+                android:id="@+id/boradcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="communicate with broadcast"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="start activity"/>
+
+            <Button
+                android:id="@+id/activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="communicate with startactivity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="start service"/>
+
+            <Button
+                android:id="@+id/service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="communicate with startservice"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="provider"/>
+
+            <Button
+                android:id="@+id/provider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="communicate with content provider"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="aidl"/>
+
+            <Button
+                android:id="@+id/aidl_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aidl connect"/>
+
+            <Button
+                android:id="@+id/aidl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="communicate with aidl"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Messenger"/>
+
+            <Button
+                android:id="@+id/messenger_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="messenger connect"/>
+
+            <Button
+                android:id="@+id/messenger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="communicate with messenger"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Timer"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>
